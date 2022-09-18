@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Container, AppBar, Typography, Grow, Grid } from '@material-ui/core';
 import { useDispatch } from 'react-redux';
-//이거 소스트리에서 어떻게 인식하는지 확인하기 위함.ㄴ
+//이거 소스트리에서 어떻게 인식하는지 확인하기.
 import Posts from './components/Posts/Posts';
 import Form from './components/Form/Form';
 import { getPosts } from './actions/posts';
