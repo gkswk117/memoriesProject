@@ -18,6 +18,7 @@ app.get('/', (req, res)=>{
   res.send('APP IS RUNNING.')
 })
 
+
 const CONNECTION_URL = 'mongodb+srv://gkswk117:gks461352@boilerplate.cttweyt.mongodb.net/?retryWrites=true&w=majority';
 const PORT = process.env.PORT|| 5000;
 
